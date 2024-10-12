@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Food Paraside</title>
+    <link rel="icon" type="image/x-icon" href="https://icons8.com/icon/42422/restaurant">
+
+</head>
+<body>
+    <h1>CAKEIFBUY</h1>
+    <ul class="list-section" >
+        <li class="nav" id="nav1">CAKEIFBUY</li>
+        <li class="nav"><a href="task1.html">Home</a></li>
+        <li class="nav"><a href="about.html">About us</a></li>
+        <li class="nav"><a href="contact.html">Contact Us</a></li>
+        <li class="nav">
+            <div id="search">
+                <input  id="search_bar" type="text" placeholder="Search...">
+                <input type="submit" id="submit">
+            </div>
+        </li>
+    </ul>
+    <div class="food_pics">
+        <div class="food_details">
+            <a href="ingredients.html"><img id="pic" src="vanilla.jpg" width="200px" height="150px"></a>
+            <div>
+                <h4 id="cake_name">Vanilla Cherry Cake</h4>
+                <button id="sym" onclick="decreament1()">-</button>
+                <button id="sym" onclick="increament1()">+</button>
+                <p id="result1">0</p>
+                <p id="plates1">For 0 servings</p>
+                <button id="addcart" onclick="addToCart('Vanilla Cherry Cake', 450)">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="food_details">
+            <a href="ingredients.html"><img id="pic" src="slices.jpg" width="200px"></a>
+            <div>
+                <h4 id="cake_name">CAKE Slice</h4>
+                <button id="sym" onclick="decreament2()">-</button>
+                <button id="sym" onclick="increament2()">+</button>
+                <p id="result2">0</p>
+                <p id="plates2">For 0 servings</p>
+                <button id="addcart" onclick="addToCart('CAKE Slice', 275)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="food_details">
+            <a href="ingredients.html"><img id="pic" src="Chocolate-Cake-Recipe-008.jpg" width="180px" height="150px"></a> 
+            <div>
+                <h4 id="cake_name">Chocolate Lava Cake</h4>
+                <button id="sym" onclick="decreament3()">-</button>
+                <button id="sym" onclick="increament3()">+</button>
+                <p id="result3">0</p>
+                <p id="plates3">For 0 servings</p>
+                <button id="addcart" onclick="addToCart('Chocolate Lava Cake', 300)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="food_details">
+            <a href="ingredients.html"><img id="pic" src="redvelvet.jpg" width="180px" height="150px"></a>
+            <div>
+                <h4 id="cake_name">Red Velvet Cake</h4>
+                <button id="sym" onclick="decreament4()">-</button>
+                <button id="sym" onclick="increament4()">+</button>
+                <p id="result4">0</p>
+                <p id="plates4">For 0 servings</p>
+                <button id="addcart" onclick="addToCart('Red Velvet Cake', 285)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="food_pics1">
+        <div class="food_details1">
+            <div>
+                <section id="cart">
+                    <h2>Your Cart</h2>
+                    <ul id="cart-items"></ul>
+                    <p>Total: <span id="total">0</span></p>
+                    <button id="buy">Buy</button>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="ingredients"><a href="ingredients.html">INGREDIENTS</a></div>
+    <script src="script.js"></script>
+</body>
+<a href="contact.html">
+    <footer id="footer">
+        <div>© 2024 CAKEIFBUY. All Rights reserved</div>
+        <div id="number">Contact Us: +123-456-7890 | Email: urlastcake@gmail.com</div>
+    </footer>
+</a>
+</html>

@@ -1,0 +1,203 @@
+h1{
+    text-align: center;
+    background-color: rgb(78, 139, 160);
+    color: rgb(237, 179, 102);
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 15px;
+    border-radius: 25px;
+}
+footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    background-color:rgb(207, 122, 62);
+    position: relative;
+    color: rgb(203, 203, 202);
+}
+ul{
+    font-size: large;
+    font-style: normal;
+    color: rgb(135, 103, 60);
+}
+li{
+    font-size: medium;
+    font-style: oblique;
+    color: rgb(91, 85, 79);
+}
+html{
+    background-color: rgb(172, 178, 183);
+}
+#number{
+    color: rgb(65, 65, 215);
+    padding-top: 10px;
+}
+#item{
+    padding-top: 30px;
+    font-weight: 900;
+}
+#item2{
+    padding-top: 5px;
+    font-weight: 540;
+}
+#ingredients{
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: rgb(114, 98, 77);
+    background-color: rgb(104, 92, 77);
+    padding: 10px;
+    border-radius: 15px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-section{
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    border-radius: 15px;
+    background-color: rgb(185, 122, 99);
+}
+.nav{
+    display: inline-block;
+    text-align: left;
+    padding: 5px;
+    background-color: rgb(185, 122, 99);
+    padding: 10px;
+}
+#nav1{
+    padding-inline-end: 10px;
+    text-align: left;
+    color:darkslateblue;
+    font-size: large;
+    font-weight: 600;
+    
+}
+a{
+    text-decoration: none;
+    color:cornflowerblue
+}
+#search_bar{
+    border-radius: 10px;
+    width: 200px ;
+    height: 20px;
+    border-width: 3.5px;
+    border-color: brown;
+
+}
+#submit{
+    border-radius: 10px;
+    width: 75px;
+    height: 25px;
+    background-color: bisque;
+    background-origin: padding-box;
+    border-color: brown;
+    border-width: 3.5px;
+    color:dimgrey;
+}
+#search{
+    place-content: right;
+}
+.food_pics{
+    border: 1px solid rgb(77, 67, 67);
+    margin: 1rem;
+    padding:2rem 2rem;
+    text-align: center;
+    border-width: 5px;
+    border-radius: 25px;
+}
+.food_details{
+    display: inline-block;
+    border: 1px solid rgb(117, 116, 116);
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    margin-right: 30px;
+    border-width: 3px;
+    border-radius: 25px;
+}
+#sym{
+    border-radius: 5px;
+    border-color: rgb(109, 104, 97);
+    color:rgb(250, 245, 245);
+    background-color: rgb(58, 51, 51);
+}
+#plates1{
+    font-style: italic;
+    font-weight: 600;
+    color: cornsilk;
+}
+#plates2{
+    font-style: italic;
+    font-weight: 600;
+    color: cornsilk;
+}
+#plates3{
+    font-style: italic;
+    font-weight: 600;
+    color: cornsilk;
+}
+#plates4{
+    font-style: italic;
+    font-weight: 600;
+    color: cornsilk;
+}
+#result1{
+    font-style: italic;
+    color: rgb(15, 76, 76);
+}
+#result2{
+    font-style: italic;
+    color: rgb(15, 76, 76);
+}
+#result3{
+    font-style: italic;
+    color: rgb(15, 76, 76);
+}
+#results4{
+    font-style: italic;
+    color: rgb(15, 76, 76);
+}
+#addcart{
+    border-radius: 5px;
+    color: azure;
+    background-color: rgb(71, 64, 64);
+    border-color: antiquewhite;
+}
+.food_pics1{
+    border: 1px solid rgb(84, 77, 41);
+    margin: 1rem;
+    padding:2rem 2rem;
+    text-align: center;
+    border-width: 5px;
+    border-radius: 25px;
+}
+.food_details1{
+    display: inline-block;
+    border: 1px solid rgba(2, 53, 83, 0.475);
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    margin-right: 30px;
+    border-width: 3px;
+    border-radius: 25px;
+}
+#buy{
+    border-radius:5px;
+    border-color: antiquewhite;
+    color: antiquewhite;
+    background-color:rgb(91, 85, 79);
+}
+#cake_name{
+    font-family:'Lucida Sans';
+    color: rgb(249, 248, 246);
+}
+#footer{
+    border-radius: 25px;
+}
+#pic{
+    border-radius: 25px;
+}
